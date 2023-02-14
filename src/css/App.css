@@ -1,0 +1,42 @@
+body {
+  background-image: url('../../public/rose.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+}
+
+.notes__title {
+  color: #fff;
+  font-weight: 400;
+}
+
+.notes {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+}
+
+@media screen and (max-width: 900px) {
+  .notes {
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .notes {
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+  }
+}
