@@ -1,7 +1,8 @@
 {
-  "name": "t21",
+  "name": "notes-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yaoliu928.github.io/NotesApp/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
